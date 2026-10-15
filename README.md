@@ -1,29 +1,37 @@
-# Car Rental Management — Axure Prototype
+# Car Rental Management: Axure Prototype
 
-**UX Prototyping · Workflow Design · Multi-Office Rental Operations**
+**Axure RP · UX prototyping · Interaction design · Workflow exploration**
 
-A historical interactive design prototype for a car-rental management workflow, created with Axure RP.
+A historical native Axure prototype for exploring car-rental management interfaces. The repository preserves the editable design artifact; it is not a deployed booking site or an implemented backend.
 
-## Project goal
+## What this project demonstrates
 
-Explore the user journeys and interface structure needed by a car-rental business operating across multiple offices. The repository currently contains an **Axure RP project file**, rather than a deployed website or implementation of a backend.
+- Presenting a native interaction-design deliverable.
+- Separating editable source from generated browser previews.
+- Explaining prototype scope without claiming implemented data services.
 
-## Deliverable
+## Start here
 
-| File | Description |
+| Read | Use it for |
 | --- | --- |
-| [car_rental.rp](car_rental.rp) | Original Axure prototype source |
+| [Project walkthrough](docs/PROJECT_GUIDE.md) | Purpose, workflow, repository map, and a concrete example |
+| [Code and artifact reference](docs/CODE_REFERENCE.md) | Important files, functions, classes, and their responsibilities |
+| [Development guide](docs/DEVELOPMENT.md) | Setup, configuration, commands, tests, and remaining limitations |
 
-## How to explore
+## Explore locally
 
-1. Open the `.rp` file in a compatible version of Axure RP.
-2. Inspect the pages, interface components, and prototype interactions.
-3. Preview or export the prototype from Axure if the installed version supports the project file.
+Open [car_rental.rp](car_rental.rp) in a compatible Axure RP installation. Inspect its pages and interactions, then generate a local preview if supported.
 
-**Compatibility note:** This file was created with an earlier version of Axure. Opening or exporting it with a current Axure version has not been tested.
+Export previews into `exports/` and keep local backups in `backups/`; those folders are ignored by Git.
 
-## Scope and limitations
+## Validation and scope
 
-The repository demonstrates UX and workflow prototyping. There is no verifiable live service, application runtime, production database, or automated test suite in the repository. Earlier repository descriptions mention SQL; however, the checked-in artifact is the Axure file alone, so this README does not claim that a working database is included.
+The native file was retrieved for format inspection and remains unchanged. It is not a standard ZIP, SQLite, or OLE container, so its page/widget inventory could not be reliably inspected here. Compatibility, preview behavior, and native internal interactions still require Axure RP.
 
-[GitHub profile](https://github.com/tariksalay)
+
+
+---
+
+[GitHub profile](https://github.com/tariksalay) · [Portfolio](https://tariksalay.github.io/) · [Earlier README](README_HISTORY.md)
+
+The earlier README is preserved as historical context; the guides above describe this branch's implementation.

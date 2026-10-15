@@ -1,0 +1,6 @@
+# Axure-generated previews and local backup/export folders
+exports/
+backups/
+*.rp.bak
+.DS_Store
+Thumbs.db
