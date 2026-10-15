@@ -20,4 +20,4 @@ A generated HTML preview is a derived review artifact. It is not a backend appli
 
 ## Validation boundary
 
-The documentation and binary Git handling were checked. No Axure rendering, internal widget inspection, or interactive acceptance test was performed. This phase leaves the `.rp` bytes unchanged.
+The documentation and binary Git handling were checked. On October 15, 2026, the existing [hosted preview](https://rwg88z.axshare.com/) was exercised through city/office selection, date pickers, missing-date validation, and navigation to car selection. Its date picker inserted fixed May 2015 values. This is limited browser interaction evidence, not a native widget inventory or full acceptance test. The hosted version has not been matched to the native document, which was not opened in Axure. The `.rp` bytes remain unchanged.

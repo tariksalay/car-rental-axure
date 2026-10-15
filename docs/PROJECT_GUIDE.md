@@ -18,6 +18,16 @@ The earlier project overview described a multi-office car-rental workflow. That 
 | `exports/` | Recommended local preview destination, not a tracked deployed website |
 | `backups/` | Recommended local backup destination |
 
+## Existing hosted preview
+
+The repository links to an [Axure Share preview](https://rwg88z.axshare.com/). On October 15, 2026, a limited browser walkthrough confirmed:
+
+1. HOME displayed pickup/return city, office, date, and time controls. Selecting Kansas City changed the pickup office choices.
+2. Submitting without dates showed a validation message that could be dismissed.
+3. Choosing dates with the calendars and selecting **Choose your car!** opened CAR, which displayed 14 vehicle rows, filters, a sorting control, and rental controls.
+
+The tested date-picker choices inserted `05/16/2015` and `05/18/2015`, although the calendar heading showed November 2019. These are historical prototype values. The review did not test filtering, sorting, rental submission, account/payment flows, or any backend operation. It also did not establish that the hosted preview was exported from the current `car_rental.rp`; native-file observations and hosted behavior must be evaluated separately.
+
 ## How to inspect internal objects accurately
 
 Use a compatible Axure installation to build an inventory from the actual document. Start with its page list and identify each page’s purpose. For each page, inspect the visible components and their interactions, then preview the relevant states. Record page names and behavior as they appear in the file rather than inventing names from the project title.

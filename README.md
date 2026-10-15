@@ -26,7 +26,7 @@ Export previews into `exports/` and keep local backups in `backups/`; those fold
 
 ## Validation and scope
 
-The native file was retrieved for format inspection and remains unchanged. It is not a standard ZIP, SQLite, or OLE container, so its page/widget inventory could not be reliably inspected here. Compatibility, preview behavior, and native internal interactions still require Axure RP.
+The native file remains unchanged; its internal page/widget inventory and editor compatibility still require Axure RP. The repository's [existing hosted preview](https://rwg88z.axshare.com/) was checked on October 15, 2026: city/office selection and date-picker interactions reached the car-selection page. The date picker inserted fixed May 2015 dates, so this is a historical interaction demo. The hosted preview's correspondence to the native file has not been established. See the [walkthrough and validation limits](docs/PROJECT_GUIDE.md).
 
 
 
